@@ -1,0 +1,22 @@
+{
+  "name": "language-galen",
+  "version": "0.1.0",
+  "description": "Galen Framework language support in Atom",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "https://github.com/danielbayerlein/language-galen#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielbayerlein/language-galen.git"
+  },
+  "author": "Daniel Bayerlein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielbayerlein/language-galen/issues"
+  },
+  "devDependencies": {
+    "coffeelint": "^1.15.7"
+  }
+}
