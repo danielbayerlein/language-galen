@@ -1,4 +1,14 @@
-'scopeName': 'source.galen'
+'scopeName': 'source.gspec'
 'name': 'Galen'
 'fileTypes': ['gspec']
-'patterns': []
+'patterns': [
+  {
+    'comment': 'Comments'
+    'begin': '^\\s*#'
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.comment.gspec'
+    'end': '\\n'
+    'name': 'comment.line.number-sign.gspec'
+  }
+]
