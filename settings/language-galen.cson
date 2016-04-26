@@ -1,3 +1,6 @@
-'.source.gspec':
+'.source.galen':
   'editor':
     'commentStart': '# '
+    'completions': [
+      '@objects'
+    ]

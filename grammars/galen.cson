@@ -1,14 +1,27 @@
-'scopeName': 'source.gspec'
+'scopeName': 'source.galen'
 'name': 'Galen'
 'fileTypes': ['gspec']
 'patterns': [
   {
-    'comment': 'Comments'
-    'begin': '^\\s*#'
-    'beginCaptures':
-      '0':
-        'name': 'punctuation.definition.comment.gspec'
-    'end': '\\n'
-    'name': 'comment.line.number-sign.gspec'
+    'include': '#comment'
+  }
+  {
+    'include': '#object-definition'
   }
 ]
+'repository':
+  'comment':
+    'patterns': [
+      'comment': 'Comments'
+      'begin': '^\\s*#'
+      'beginCaptures':
+        '0':
+          'name': 'punctuation.definition.comment.galen'
+      'end': '\\n'
+      'name': 'comment.line.number-sign.galen'
+    ]
+  'object-definition':
+    'patterns': [
+        'match': '^(@objects)$'
+        'name': 'storage.type.galen'
+    ]
