@@ -8,6 +8,9 @@
   {
     'include': '#object-definition'
   }
+  {
+    'include': '#tagging-and-sections'
+  }
 ]
 'repository':
   'comment':
@@ -45,5 +48,15 @@
             'name': 'support.type.locators.galen'
           '7':
             'name': 'entity.other.attribute-name.selector.galen'
+      }
+    ]
+  'tagging-and-sections':
+    'patterns': [
+      {
+        'comment': 'Section declaration'
+        'match': '^\\s*(= .+ =)$'
+        'captures':
+          '1':
+            'name': 'entity.name.function.section.galen'
       }
     ]

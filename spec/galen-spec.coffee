@@ -113,3 +113,18 @@ describe 'Galen grammar', ->
       expect(tokens[0]).toEqual value: '@groups', scopes: ['source.galen', 'storage.type.galen']
       expect(tokens[3]).toEqual value: 'skeleton_elements', scopes: ['source.galen', 'entity.name.type.object.galen']
       expect(tokens[5]).toEqual value: 'header, menu, content, footer', scopes: ['source.galen', 'entity.other.attribute-name.selector.galen']
+
+  describe 'sections', ->
+    it 'tokenizes declaration', ->
+      {tokens} = grammar.tokenizeLine '''
+      = Section =
+      '''
+      expect(tokens[0]).toEqual value: '= Section =', scopes: ['source.galen', 'entity.name.function.section.galen']
+
+    it 'tokenizes multiple declaration', ->
+      {tokens} = grammar.tokenizeLine '''
+      = Header section =
+          = Icons and text =
+      '''
+      expect(tokens[0]).toEqual value: '= Header section =', scopes: ['source.galen', 'entity.name.function.section.galen']
+      expect(tokens[3]).toEqual value: '= Icons and text =', scopes: ['source.galen', 'entity.name.function.section.galen']
