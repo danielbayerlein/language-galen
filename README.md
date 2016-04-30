@@ -2,8 +2,7 @@
 
 Adds syntax highlighting for Galen Framework in Atom.
 
-Originally [converted](http://atom.io/docs/latest/converting-a-text-mate-bundle)
-from the [Galen Framework Sublime Text bundle](https://github.com/professant/sublime-galen).
+Inspired by the [Galen Framework Sublime Text bundle](https://github.com/professant/sublime-galen).
 
 Contributions are greatly appreciated. Please fork this repository and open a
 pull request to add snippets, make grammar tweaks, etc.
