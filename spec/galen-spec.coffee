@@ -105,7 +105,7 @@ describe 'Galen grammar', ->
       expect(tokens[10]).toEqual value: 'id', scopes: ['source.galen', 'support.type.locators.galen']
       expect(tokens[12]).toEqual value: 'some-container', scopes: ['source.galen', 'entity.other.attribute-name.selector.galen']
 
-    it 'tokenizes object groups', ->
+    it 'tokenizes groups', ->
       {tokens} = grammar.tokenizeLine '''
       @groups
           skeleton_elements   header, menu, content, footer
@@ -113,6 +113,18 @@ describe 'Galen grammar', ->
       expect(tokens[0]).toEqual value: '@groups', scopes: ['source.galen', 'storage.type.galen']
       expect(tokens[3]).toEqual value: 'skeleton_elements', scopes: ['source.galen', 'entity.name.type.object.galen']
       expect(tokens[5]).toEqual value: 'header, menu, content, footer', scopes: ['source.galen', 'entity.other.attribute-name.selector.galen']
+
+    it 'tokenizes multiple groups', ->
+      {tokens} = grammar.tokenizeLine '''
+      @groups
+          (skeleton_elements, mainframe)  header, menu, content, footer
+          mainframe                       navigation_bar
+      '''
+      expect(tokens[0]).toEqual value: '@groups', scopes: ['source.galen', 'storage.type.galen']
+      expect(tokens[3]).toEqual value: '(skeleton_elements, mainframe)', scopes: ['source.galen', 'entity.name.type.object.galen']
+      expect(tokens[5]).toEqual value: 'header, menu, content, footer', scopes: ['source.galen', 'entity.other.attribute-name.selector.galen']
+      expect(tokens[8]).toEqual value: 'mainframe', scopes: ['source.galen', 'entity.name.type.object.galen']
+      expect(tokens[10]).toEqual value: 'navigation_bar', scopes: ['source.galen', 'entity.other.attribute-name.selector.galen']
 
   describe 'sections', ->
     it 'tokenizes declaration', ->
