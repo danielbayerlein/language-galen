@@ -59,4 +59,11 @@
           '1':
             'name': 'entity.name.function.section.galen'
       }
+      {
+        'comment': 'Object groups'
+        'match': '^\\s+(&?.+:)$'
+        'captures':
+          '1':
+            'name': 'entity.name.type.object.galen'
+      }
     ]
