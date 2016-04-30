@@ -1,0 +1,10 @@
+'.source.galen':
+  'Add object definition':
+    'prefix': 'obj'
+    'body': '@objects\n'
+  'Add group definition':
+    'prefix': 'gro'
+    'body': '@groups\n'
+  'Add section definition':
+    'prefix': 'sec'
+    'body': '= ${1:section} =\n'
