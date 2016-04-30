@@ -1,6 +1,6 @@
 # Galen Framework language support in Atom [![Build Status](https://travis-ci.org/danielbayerlein/language-galen.svg?branch=master)](https://travis-ci.org/danielbayerlein/language-galen)
 
-Adds syntax highlighting for Galen Framework in Atom.
+Add syntax highlighting for Galen Framework in Atom.
 
 Inspired by the [Galen Framework Sublime Text bundle](https://github.com/professant/sublime-galen).
 
