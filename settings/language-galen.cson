@@ -3,4 +3,7 @@
     'commentStart': '# '
     'completions': [
       '@objects'
+      'css'
+      'id'
+      'xpath'
     ]

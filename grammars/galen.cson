@@ -22,6 +22,28 @@
     ]
   'object-definition':
     'patterns': [
-        'match': '^(@objects)$'
+      {
+        'comment': 'Object definition keyword'
+        'match': '^(@(?:objects|groups))$'
         'name': 'storage.type.galen'
+      }
+      {
+        'comment': 'Object definition locators'
+        'match': '^\\s+([^\\s]+)\\s+(?:(@)(?:(\\()(.+)(\\)))\\s+)?(css|id|xpath)?\\s+(.+)$'
+        'captures':
+          '1':
+            'name': 'entity.name.type.object.galen'
+          '2':
+            'name': 'support.function.corrections.gspec'
+          '3':
+            'name': 'punctuation.definition.parameters.begin.bracket.galen'
+          '4':
+            'name': 'variable.parameter.corrections.galen'
+          '5':
+            'name': 'punctuation.definition.parameters.end.bracket.galen'
+          '6':
+            'name': 'support.type.locators.galen'
+          '7':
+            'name': 'entity.other.attribute-name.selector.galen'
+      }
     ]
