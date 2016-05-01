@@ -126,6 +126,22 @@ describe 'Galen grammar', ->
       expect(tokens[8]).toEqual value: 'mainframe', scopes: ['source.galen', 'entity.name.type.object.galen']
       expect(tokens[10]).toEqual value: 'navigation_bar', scopes: ['source.galen', 'entity.other.attribute-name.selector.galen']
 
+    it 'tokenizes inline groups with objects', ->
+      {tokens} = grammar.tokenizeLine '''
+      @objects
+          header          #header
+              logo @grouped(image_validation)  img.logo
+      '''
+      expect(tokens[0]).toEqual value: '@objects', scopes: ['source.galen', 'storage.type.galen']
+      expect(tokens[3]).toEqual value: 'header', scopes: ['source.galen', 'entity.name.type.object.galen']
+      expect(tokens[5]).toEqual value: '#header', scopes: ['source.galen', 'entity.other.attribute-name.selector.galen']
+      expect(tokens[8]).toEqual value: 'logo', scopes: ['source.galen', 'entity.name.type.object.galen']
+      expect(tokens[10]).toEqual value: '@grouped', scopes: ['source.galen', 'support.function.groups.gspec']
+      expect(tokens[11]).toEqual value: '(', scopes: ['source.galen', 'punctuation.definition.parameters.begin.bracket.galen']
+      expect(tokens[12]).toEqual value: 'image_validation', scopes: ['source.galen', 'variable.parameter.groups.galen']
+      expect(tokens[13]).toEqual value: ')', scopes: ['source.galen', 'punctuation.definition.parameters.end.bracket.galen']
+      expect(tokens[15]).toEqual value: 'img.logo', scopes: ['source.galen', 'entity.other.attribute-name.selector.galen']
+
   describe 'sections', ->
     it 'tokenizes declaration', ->
       {tokens} = grammar.tokenizeLine '''
