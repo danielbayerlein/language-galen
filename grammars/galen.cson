@@ -122,4 +122,18 @@
           '1':
             'name': 'keyword.control.inside.galen'
       }
+      {
+        'comment': 'Spec width'
+        'match': '^\\s+(width)\\s'
+        'captures':
+          '1':
+            'name': 'keyword.control.width.galen'
+      }
+      {
+        'comment': 'Spec height'
+        'match': '^\\s+(height)\\s'
+        'captures':
+          '1':
+            'name': 'keyword.control.height.galen'
+      }
     ]
