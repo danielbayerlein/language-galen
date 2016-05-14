@@ -26,9 +26,11 @@
     &skeleton_elements:
 #   ^^^^^^^^^^^^^^^^^^^ entity.name.type.object.galen
         inside screen 0px left right
+#       ^^^^^^ keyword.control.inside.galen
     header, menu, content, footer:
 #   ^^^^^^^ ^^^^^ ^^^^^^^^ ^^^^^^^ entity.name.type.object.galen
         inside screen 0px left right
+#       ^^^^^^ keyword.control.inside.galen
     (skeleton_elements, mainframe)  header, menu, content, footer
 #   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ entity.name.type.object.galen
 #                                   ^^^^^^^ ^^^^^ ^^^^^^^^ ^^^^^^ entity.other.attribute-name.selector.galen
@@ -41,3 +43,4 @@
     @forEach [&mainframe] as item
         ${item}:
             inside screen 10px left
+#           ^^^^^^ keyword.control.inside.galen

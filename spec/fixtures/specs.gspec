@@ -1,24 +1,28 @@
 # SYNTAX TEST "source.galen"
 
 = Skeleton =
-# <- source.galen entity.name.function.section.galen
+# <- entity.name.function.section.galen
     textfield:
-#   ^^^^^^^^^^ source.galen entity.name.type.object.galen
+#   ^^^^^^^^^^ entity.name.type.object.galen
         near button 10px left
-#       ^^^^ source.galen keyword.control.near.galen
+#       ^^^^ keyword.control.near.galen
     caption:
-#   ^^^^^^^^ source.galen entity.name.type.object.galen
+#   ^^^^^^^^ entity.name.type.object.galen
         above description 10 to 20 px
-#       ^^^^^ source.galen keyword.control.above.galen
+#       ^^^^^ keyword.control.above.galen
     description:
-#   ^^^^^^^^^^^^ source.galen entity.name.type.object.galen
+#   ^^^^^^^^^^^^ entity.name.type.object.galen
         below caption 10 to 20 px
-#       ^^^^^ source.galen keyword.control.below.galen
+#       ^^^^^ keyword.control.below.galen
     textfield:
-#   ^^^^^^^^^^ source.galen entity.name.type.object.galen
+#   ^^^^^^^^^^ entity.name.type.object.galen
         left-of button 10px
-#       ^^^^^^^ source.galen keyword.control.left-of.galen
+#       ^^^^^^^ keyword.control.left-of.galen
     button:
-#   ^^^^^^^ source.galen entity.name.type.object.galen
+#   ^^^^^^^ entity.name.type.object.galen
         right-of textfield 10px
-#       ^^^^^^^^ source.galen keyword.control.right-of.galen
+#       ^^^^^^^^ keyword.control.right-of.galen
+    button:
+#   ^^^^^^^ entity.name.type.object.galen
+        inside container 10 px top left
+#       ^^^^^^ keyword.control.inside.galen

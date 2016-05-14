@@ -115,4 +115,11 @@
           '1':
             'name': 'keyword.control.right-of.galen'
       }
+      {
+        'comment': 'Spec inside'
+        'match': '^\\s+(inside)\\s'
+        'captures':
+          '1':
+            'name': 'keyword.control.inside.galen'
+      }
     ]
