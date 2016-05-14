@@ -11,6 +11,9 @@
   {
     'include': '#tagging-and-sections'
   }
+  {
+    'include': '#specs'
+  }
 ]
 'repository':
   'comment':
@@ -73,5 +76,15 @@
         'captures':
           '1':
             'name': 'entity.name.type.object.galen'
+      }
+    ]
+  'specs':
+    'patterns': [
+      {
+        'comment': 'Spec near'
+        'match': '^\\s+(near)\\s'
+        'captures':
+          '1':
+            'name': 'keyword.control.near.galen'
       }
     ]

@@ -1,0 +1,8 @@
+# SYNTAX TEST "source.galen"
+
+= Skeleton =
+# <- source.galen entity.name.function.section.galen
+    textfield:
+#   ^^^^^^^^^^ source.galen entity.name.type.object.galen
+        near button 10px left
+#       ^^^^ source.galen keyword.control.near.galen
