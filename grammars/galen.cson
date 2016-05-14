@@ -87,4 +87,18 @@
           '1':
             'name': 'keyword.control.near.galen'
       }
+      {
+        'comment': 'Spec above'
+        'match': '^\\s+(above)\\s'
+        'captures':
+          '1':
+            'name': 'keyword.control.above.galen'
+      }
+      {
+        'comment': 'Spec below'
+        'match': '^\\s+(below)\\s'
+        'captures':
+          '1':
+            'name': 'keyword.control.below.galen'
+      }
     ]

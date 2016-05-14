@@ -6,3 +6,11 @@
 #   ^^^^^^^^^^ source.galen entity.name.type.object.galen
         near button 10px left
 #       ^^^^ source.galen keyword.control.near.galen
+  caption:
+# ^^^^^^^^ source.galen entity.name.type.object.galen
+      above description 10 to 20 px
+#     ^^^^^ source.galen keyword.control.above.galen
+  description:
+# ^^^^^^^^^^^^ source.galen entity.name.type.object.galen
+      below caption 10 to 20 px
+#     ^^^^^ source.galen keyword.control.below.galen
