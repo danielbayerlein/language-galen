@@ -11,4 +11,6 @@
       'near'
       'above'
       'below'
+      'left-of'
+      'right-of'
     ]

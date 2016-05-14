@@ -101,4 +101,18 @@
           '1':
             'name': 'keyword.control.below.galen'
       }
+      {
+        'comment': 'Spec left-of'
+        'match': '^\\s+(left-of)\\s'
+        'captures':
+          '1':
+            'name': 'keyword.control.left-of.galen'
+      }
+      {
+        'comment': 'Spec right-of'
+        'match': '^\\s+(right-of)\\s'
+        'captures':
+          '1':
+            'name': 'keyword.control.right-of.galen'
+      }
     ]

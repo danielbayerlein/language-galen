@@ -14,3 +14,11 @@
 # ^^^^^^^^^^^^ source.galen entity.name.type.object.galen
       below caption 10 to 20 px
 #     ^^^^^ source.galen keyword.control.below.galen
+  textfield:
+# ^^^^^^^^^^ source.galen entity.name.type.object.galen
+      left-of button 10px
+#     ^^^^^^^ source.galen keyword.control.left-of.galen
+  button:
+# ^^^^^^^ source.galen entity.name.type.object.galen
+      right-of textfield 10px
+#     ^^^^^^^^ source.galen keyword.control.right-of.galen
