@@ -1,0 +1,34 @@
+# SYNTAX TEST "source.galen"
+
+@objects
+# <- storage.type.galen
+    search_panel            id      search-bar
+#   ^^^^^^^^^^^^ entity.name.type.object.galen
+#                           ^^ support.type.locators.galen
+#                                   ^^^^^^^^^^ entity.other.attribute-name.selector.galen
+    search_panel_input      xpath   //div[@id='search-bar']/input[@type='text']
+#   ^^^^^^^^^^^^^^^^^^ entity.name.type.object.galen
+#                           ^^^^^ support.type.locators.galen
+#                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ entity.other.attribute-name.selector.galen
+    search_panel_button     css     #search-bar a
+#   ^^^^^^^^^^^^^^^^^^^ entity.name.type.object.galen
+#                           ^^^ support.type.locators.galen
+#                                   ^^^^^^^^^^^^^ entity.other.attribute-name.selector.galen
+    search_panel            #search-bar
+#   ^^^^^^^^^^^^ entity.name.type.object.galen
+#                           ^^^^^^^^^^^ entity.other.attribute-name.selector.galen
+    search_panel_input      #search-bar input[type='text']
+#   ^^^^^^^^^^^^^^^^^^ entity.name.type.object.galen
+#                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ entity.other.attribute-name.selector.galen
+    search_panel_button     #search-bar a
+#   ^^^^^^^^^^^^^^^^^^^ entity.name.type.object.galen
+#                           ^^^^^^^^^^^^^ entity.other.attribute-name.selector.galen
+    search_panel   #search-bar
+#   ^^^^^^^^^^^^ entity.name.type.object.galen
+#                  ^^^^^^^^^^^ entity.other.attribute-name.selector.galen
+        input      input[type='text']
+#       ^^^^^ entity.name.type.object.galen
+#                  ^^^^^^^^^^^^^^^^^^ entity.other.attribute-name.selector.galen
+        button     a
+#       ^^^^^^ entity.name.type.object.galen
+#                  ^ entity.other.attribute-name.selector.galen

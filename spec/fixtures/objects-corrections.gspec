@@ -1,0 +1,36 @@
+# SYNTAX TEST "source.galen"
+
+@objects
+# <- storage.type.galen
+    some_test_object    @(0, 0, -50, 0)   id  some-container
+#   ^^^^^^^^^^^^^^^^ entity.name.type.object.galen
+#                       ^ support.function.corrections.gspec
+#                        ^ punctuation.definition.parameters.begin.bracket.galen
+#                         ^^ ^^ ^^^^ ^ variable.parameter.corrections.galen
+#                                     ^ punctuation.definition.parameters.end.bracket.galen
+#                                         ^^ support.type.locators.galen
+#                                             ^^^^^^^^^^^^^^ entity.other.attribute-name.selector.galen
+    some_test_object    @(-30, +100, 0, 0)   id  some-container
+#   ^^^^^^^^^^^^^^^^ entity.name.type.object.galen
+#                       ^ support.function.corrections.gspec
+#                        ^ punctuation.definition.parameters.begin.bracket.galen
+#                         ^^^^ ^^^^^ ^^ ^ variable.parameter.corrections.galen
+#                                        ^ punctuation.definition.parameters.end.bracket.galen
+#                                            ^^ support.type.locators.galen
+#                                                ^^^^^^^^^^^^^^ entity.other.attribute-name.selector.galen
+    some_test_object    @(0, 0, 0, +200)   id  some-container
+#   ^^^^^^^^^^^^^^^^ entity.name.type.object.galen
+#                       ^ support.function.corrections.gspec
+#                        ^ punctuation.definition.parameters.begin.bracket.galen
+#                         ^^ ^^ ^^ ^^^^ variable.parameter.corrections.galen
+#                                      ^ punctuation.definition.parameters.end.bracket.galen
+#                                          ^^ support.type.locators.galen
+#                                              ^^^^^^^^^^^^^^ entity.other.attribute-name.selector.galen
+    some_test_object    @(0, 0, 0, =200)   id  some-container
+#   ^^^^^^^^^^^^^^^^ entity.name.type.object.galen
+#                       ^ support.function.corrections.gspec
+#                        ^ punctuation.definition.parameters.begin.bracket.galen
+#                         ^^ ^^ ^^ ^^^^ variable.parameter.corrections.galen
+#                                      ^ punctuation.definition.parameters.end.bracket.galen
+#                                          ^^ support.type.locators.galen
+#                                              ^^^^^^^^^^^^^^ entity.other.attribute-name.selector.galen

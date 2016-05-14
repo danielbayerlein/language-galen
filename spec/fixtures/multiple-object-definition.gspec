@@ -1,0 +1,8 @@
+# SYNTAX TEST "source.galen"
+
+@objects
+# <- storage.type.galen
+    menu_item-*     css     #menu li a
+#   ^^^^^^^^^^^ entity.name.type.object.galen
+#                   ^^^ support.type.locators.galen
+#                           ^^^^^ ^^ ^ entity.other.attribute-name.selector.galen

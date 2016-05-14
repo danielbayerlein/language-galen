@@ -1,0 +1,14 @@
+# SYNTAX TEST "source.galen"
+
+@objects
+# <- storage.type.galen
+    header          #header
+#   ^^^^^^ entity.name.type.object.galen
+#                   ^^^^^^^ entity.other.attribute-name.selector.galen
+        logo @grouped(image_validation)  img.logo
+#       ^^^^ entity.name.type.object.galen
+#            ^^^^^^^^ support.function.groups.gspec
+#                    ^ punctuation.definition.parameters.begin.bracket.galen
+#                     ^^^^^^^^^^^^^^^^ variable.parameter.groups.galen
+#                                     ^ punctuation.definition.parameters.end.bracket.galen
+#                                        ^ entity.other.attribute-name.selector.galen

@@ -1,0 +1,43 @@
+# SYNTAX TEST "source.galen"
+
+@objects
+# <- storage.type.galen
+    header          #header
+#   ^^^^^^ entity.name.type.object.galen
+#                   ^^^^^^^ entity.other.attribute-name.selector.galen
+    menu            ul.menu
+#   ^^^^ entity.name.type.object.galen
+#                   ^^^^^^^ entity.other.attribute-name.selector.galen
+    content         #content
+#   ^^^^^^^ entity.name.type.object.galen
+#                   ^^^^^^^^ entity.other.attribute-name.selector.galen
+    footer          #footer
+#   ^^^^^^ entity.name.type.object.galen
+#                   ^^^^^^^ entity.other.attribute-name.selector.galen
+
+@groups
+# <- storage.type.galen
+    skeleton_elements   header, menu, content, footer
+#   ^^^^^^^^^^^^^^^^^ entity.name.type.object.galen
+#                       ^^^^^^^ ^^^^^ ^^^^^^^^ ^^^^^^ entity.other.attribute-name.selector.galen
+
+= Skeleton =
+# <- entity.name.function.section.galen
+    &skeleton_elements:
+#   ^^^^^^^^^^^^^^^^^^^ entity.name.type.object.galen
+        inside screen 0px left right
+    header, menu, content, footer:
+#   ^^^^^^^ ^^^^^ ^^^^^^^^ ^^^^^^^ entity.name.type.object.galen
+        inside screen 0px left right
+    (skeleton_elements, mainframe)  header, menu, content, footer
+#   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ entity.name.type.object.galen
+#                                   ^^^^^^^ ^^^^^ ^^^^^^^^ ^^^^^^ entity.other.attribute-name.selector.galen
+    mainframe                       navigation_bar
+#   ^^^^^^^^^ entity.name.type.object.galen
+#                                   ^^^^^^^^^^^^^^ entity.other.attribute-name.selector.galen
+
+= Mainframe =
+# <- entity.name.function.section.galen
+    @forEach [&mainframe] as item
+        ${item}:
+            inside screen 10px left

@@ -1,0 +1,5 @@
+# SYNTAX TEST "source.galen"
+
+# This line a comment
+# <- comment.line.number-sign.galen punctuation.definition.comment.galen
+# ^^^^ ^^^^ ^ ^^^^^^^ comment.line.number-sign.galen
