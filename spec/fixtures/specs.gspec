@@ -32,3 +32,7 @@
 #       ^^^^^ keyword.control.width.galen
         height 25px
 #       ^^^^^^ keyword.control.height.galen
+    menu_item-1:
+#   ^^^^^^^^^^^^ entity.name.type.object.galen
+        aligned horizontally all menu_item-2
+#       ^^^^^^^ ^^^^^^^^^^^^ ^^^ keyword.control.aligned-horizontally-all.galen

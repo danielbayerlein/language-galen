@@ -136,4 +136,11 @@
           '1':
             'name': 'keyword.control.height.galen'
       }
+      {
+        'comment': 'Spec aligned horizontally all'
+        'match': '^\\s+(aligned horizontally all)\\s'
+        'captures':
+          '1':
+            'name': 'keyword.control.aligned-horizontally-all.galen'
+      }
     ]
