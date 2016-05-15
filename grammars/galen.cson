@@ -215,4 +215,11 @@
           '1':
             'name': 'keyword.control.color-scheme.galen'
       }
+      {
+        'comment': 'Spec image'
+        'match': '^\\s+(image file)\\s'
+        'captures':
+          '1':
+            'name': 'keyword.control.image.galen'
+      }
     ]

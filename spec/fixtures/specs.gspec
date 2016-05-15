@@ -132,3 +132,7 @@
 #   ^^^^^^^^^^^ entity.name.type.object.galen
         color-scheme 10% white, 4 to 5 % black, < 30% #f845b7
 #       ^^^^^^^^^^^^ keyword.control.color-scheme.galen
+    menu_item-1:
+#   ^^1^^^^^^^^^ entity.name.type.object.galen
+        image file imgs/menu_item-1.png, error 12px
+#       ^^^^^ ^^^^ keyword.control.image.galen
