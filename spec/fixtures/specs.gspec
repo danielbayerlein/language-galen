@@ -10,16 +10,12 @@
 #   ^^^^^^^^ entity.name.type.object.galen
         above description 10 to 20 px
 #       ^^^^^ keyword.control.above.galen
-    description:
-#   ^^^^^^^^^^^^ entity.name.type.object.galen
         below caption 10 to 20 px
 #       ^^^^^ keyword.control.below.galen
     textfield:
 #   ^^^^^^^^^^ entity.name.type.object.galen
         left-of button 10px
 #       ^^^^^^^ keyword.control.left-of.galen
-    button:
-#   ^^^^^^^ entity.name.type.object.galen
         right-of textfield 10px
 #       ^^^^^^^^ keyword.control.right-of.galen
     button:
@@ -35,4 +31,18 @@
     menu_item-1:
 #   ^^^^^^^^^^^^ entity.name.type.object.galen
         aligned horizontally all menu_item-2
-#       ^^^^^^^ ^^^^^^^^^^^^ ^^^ keyword.control.aligned-horizontally-all.galen
+#       ^^^^^^^ ^^^^^^^^^^^^ ^^^ keyword.control.aligned.galen
+        aligned horizontally top menu_item-2
+#       ^^^^^^^ ^^^^^^^^^^^^ ^^^ keyword.control.aligned.galen
+        aligned horizontally bottom menu_item-2
+#       ^^^^^^^ ^^^^^^^^^^^^ ^^^^^^ keyword.control.aligned.galen
+        aligned horizontally centered menu_item-2
+#       ^^^^^^^ ^^^^^^^^^^^^ ^^^^^^^^ keyword.control.aligned.galen
+        aligned vertically all menu_item-2
+#       ^^^^^^^ ^^^^^^^^^^ ^^^ keyword.control.aligned.galen
+        aligned vertically left menu_item-2
+#       ^^^^^^^ ^^^^^^^^^^ ^^^^ keyword.control.aligned.galen
+        aligned vertically right menu_item-2
+#       ^^^^^^^ ^^^^^^^^^^ ^^^^^ keyword.control.aligned.galen
+        aligned vertically centered menu_item-2
+#       ^^^^^^^ ^^^^^^^^^^ ^^^^^^^^ keyword.control.aligned.galen

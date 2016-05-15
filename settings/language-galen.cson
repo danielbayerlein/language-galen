@@ -17,4 +17,11 @@
       'height'
       'width'
       'aligned horizontally all'
+      'aligned horizontally top'
+      'aligned horizontally bottom'
+      'aligned horizontally centered'
+      'aligned vertically all'
+      'aligned vertically left'
+      'aligned vertically right'
+      'aligned vertically centered'
     ]

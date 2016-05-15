@@ -137,10 +137,10 @@
             'name': 'keyword.control.height.galen'
       }
       {
-        'comment': 'Spec aligned horizontally all'
-        'match': '^\\s+(aligned horizontally all)\\s'
+        'comment': 'Spec aligned'
+        'match': '^\\s+(aligned(?: horizontally(?! (left|right))| vertically(?! (top| bottom))) (?:all|centered|top|bottom|left|right))\\s'
         'captures':
           '1':
-            'name': 'keyword.control.aligned-horizontally-all.galen'
+            'name': 'keyword.control.aligned.galen'
       }
     ]
