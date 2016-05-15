@@ -22,6 +22,8 @@
 #   ^^^^^^^ entity.name.type.object.galen
         inside container 10 px top left
 #       ^^^^^^ keyword.control.inside.galen
+        inside partly container 10px top left
+#       ^^^^^^ ^^^^^^ keyword.control.inside.galen
     button:
 #   ^^^^^^^ entity.name.type.object.galen
         width 100 px

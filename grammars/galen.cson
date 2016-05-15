@@ -117,7 +117,7 @@
       }
       {
         'comment': 'Spec inside'
-        'match': '^\\s+(inside)\\s'
+        'match': '^\\s+(inside(?: partly)?)\\s'
         'captures':
           '1':
             'name': 'keyword.control.inside.galen'

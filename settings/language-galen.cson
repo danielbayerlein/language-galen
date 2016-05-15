@@ -14,6 +14,7 @@
       'left-of'
       'right-of'
       'inside'
+      'inside partly'
       'height'
       'width'
       'aligned horizontally all'
