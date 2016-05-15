@@ -70,3 +70,15 @@
 #       ^^^^ ^^^^^^^^^ ^^^^^^^^ keyword.control.text.galen
         text lowercase matches "welcome .* to our cool website!"
 #       ^^^^ ^^^^^^^^^ ^^^^^^^ keyword.control.text.galen
+    login-button:
+#   ^^^^^^^^^^^^^ entity.name.type.object.galen
+        css font-size is "18px"
+#       ^^^           ^^ keyword.control.css.galen
+        css font-family starts "Helvetica"
+#       ^^^             ^^^^^^ keyword.control.css.galen
+        css font-family ends "sans-serif"
+#       ^^^             ^^^^ keyword.control.css.galen
+        css font-family contains "Arial"
+#       ^^^             ^^^^^^^^ keyword.control.css.galen
+        css font-family matches ".*Arial.*"
+#       ^^^             ^^^^^^^ keyword.control.css.galen

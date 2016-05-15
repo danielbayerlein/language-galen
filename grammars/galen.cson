@@ -150,4 +150,13 @@
           '1':
             'name': 'keyword.control.text.galen'
       }
+      {
+        'comment': 'Spec css'
+        'match': '^\\s+(css).+(is|starts|ends|contains|matches)\\s'
+        'captures':
+          '1':
+            'name': 'keyword.control.css.galen'
+          '2':
+            'name': 'keyword.control.css.galen'
+      }
     ]
