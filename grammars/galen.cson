@@ -201,4 +201,11 @@
           '1':
             'name': 'keyword.control.component.galen'
       }
+      {
+        'comment': 'Spec count'
+        'match': '^\\s+(count (?:any|visible|absent))\\s'
+        'captures':
+          '1':
+            'name': 'keyword.control.count.galen'
+      }
     ]

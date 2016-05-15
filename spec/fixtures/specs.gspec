@@ -120,3 +120,11 @@
 #       ^^^^^^^^^ keyword.control.component.galen
         component frame banner.gspec
 #       ^^^^^^^^^ ^^^^^ keyword.control.component.galen
+    global:
+#   ^^^^^^^ entity.name.type.object.galen
+        count any menu_item-* is 3
+#       ^^^^^ ^^^ keyword.control.count.galen
+        count visible menu_item-* is 4 to 5
+#       ^^^^^ ^^^^^^^ keyword.control.count.galen
+        count absent menu_item-* is 4 to 5
+#       ^^^^^ ^^^^^^ keyword.control.count.galen
