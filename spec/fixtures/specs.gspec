@@ -48,3 +48,25 @@
 #       ^^^^^^^ ^^^^^^^^^^ ^^^^^ keyword.control.aligned.galen
         aligned vertically centered menu_item-2
 #       ^^^^^^^ ^^^^^^^^^^ ^^^^^^^^ keyword.control.aligned.galen
+    greeting:
+#   ^^^^^^^^^ entity.name.type.object.galen
+        text is "Welcome user@example.com to our cool website!"
+#       ^^^^ ^^ keyword.control.text.galen
+        text starts "Welcome"
+#       ^^^^ ^^^^^^ keyword.control.text.galen
+        text ends "website!"
+#       ^^^^ ^^^^ keyword.control.text.galen
+        text contains "to our cool"
+#       ^^^^ ^^^^^^^^ keyword.control.text.galen
+        text matches "Welcome .* to our cool website!"
+#       ^^^^ ^^^^^^^ keyword.control.text.galen
+        text lowercase is "welcome user@example.com to our cool website!"
+#       ^^^^ ^^^^^^^^^ ^^ keyword.control.text.galen
+        text uppercase starts "WELCOME"
+#       ^^^^ ^^^^^^^^^ ^^^^^^ keyword.control.text.galen
+        text lowercase ends "website!"
+#       ^^^^ ^^^^^^^^^ ^^^^ keyword.control.text.galen
+        text lowercase contains "to our cool"
+#       ^^^^ ^^^^^^^^^ ^^^^^^^^ keyword.control.text.galen
+        text lowercase matches "welcome .* to our cool website!"
+#       ^^^^ ^^^^^^^^^ ^^^^^^^ keyword.control.text.galen

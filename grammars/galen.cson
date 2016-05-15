@@ -143,4 +143,11 @@
           '1':
             'name': 'keyword.control.aligned.galen'
       }
+      {
+        'comment': 'Spec text'
+        'match': '^\\s+(text (?:(lowercase )?is|(lowercase )?contains|(uppercase )?starts|(lowercase )?ends|(lowercase )?matches))\\s'
+        'captures':
+          '1':
+            'name': 'keyword.control.text.galen'
+      }
     ]
