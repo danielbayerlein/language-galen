@@ -187,4 +187,11 @@
           '1':
             'name': 'keyword.control.contains.galen'
       }
+      {
+        'comment': 'Spec on'
+        'match': '^\\s+(on (?:top|bottom) (?:left|right))\\s'
+        'captures':
+          '1':
+            'name': 'keyword.control.on.galen'
+      }
     ]

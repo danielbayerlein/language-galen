@@ -108,3 +108,9 @@
 #       ^^^^^^^^ keyword.control.contains.galen
         contains partly box-item-1, box-item-2
 #       ^^^^^^^^ ^^^^^^ keyword.control.contains.galen
+    user-picture-label:
+#   ^^^^^^^^^ entity.name.type.object.galen
+        on top left edge user-picture 20 px left, 10px bottom
+#       ^^ ^^^ ^^^^ keyword.control.on.galen
+        on bottom left edge user-picture 20px right, 10 px top
+#       ^^ ^^^^^^ ^^^^ keyword.control.on.galen

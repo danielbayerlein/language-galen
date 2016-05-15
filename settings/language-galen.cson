@@ -42,4 +42,8 @@
       'visible'
       'contains'
       'contains partly'
+      'on top left'
+      'on top right'
+      'on bottom left'
+      'on bottom right'
     ]
