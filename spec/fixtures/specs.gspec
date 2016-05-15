@@ -96,3 +96,7 @@
 #   ^^^^^^^^^ entity.name.type.object.galen
         absent
 #       ^^^^^^ keyword.control.absent.galen
+    comments:
+#   ^^^^^^^^^ entity.name.type.object.galen
+        visible
+#       ^^^^^^^ keyword.control.visible.galen

@@ -173,4 +173,11 @@
           '1':
             'name': 'keyword.control.absent.galen'
       }
+      {
+        'comment': 'Spec visible'
+        'match': '^\\s+(visible)$'
+        'captures':
+          '1':
+            'name': 'keyword.control.visible.galen'
+      }
     ]
