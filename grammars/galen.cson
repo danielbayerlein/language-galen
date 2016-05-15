@@ -180,4 +180,11 @@
           '1':
             'name': 'keyword.control.visible.galen'
       }
+      {
+        'comment': 'Spec contains'
+        'match': '^\\s+(contains(?: partly)?)\\s'
+        'captures':
+          '1':
+            'name': 'keyword.control.contains.galen'
+      }
     ]

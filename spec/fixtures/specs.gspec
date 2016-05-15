@@ -100,3 +100,11 @@
 #   ^^^^^^^^^ entity.name.type.object.galen
         visible
 #       ^^^^^^^ keyword.control.visible.galen
+    comments:
+#   ^^^^^^^^^ entity.name.type.object.galen
+        contains comment-header, comment-send-button, comment-textfield
+#       ^^^^^^^^ keyword.control.contains.galen
+        contains menu_item-*
+#       ^^^^^^^^ keyword.control.contains.galen
+        contains partly box-item-1, box-item-2
+#       ^^^^^^^^ ^^^^^^ keyword.control.contains.galen
