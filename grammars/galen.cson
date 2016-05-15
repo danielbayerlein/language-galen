@@ -194,4 +194,11 @@
           '1':
             'name': 'keyword.control.on.galen'
       }
+      {
+        'comment': 'Spec component'
+        'match': '^\\s+(component(?: frame)?)\\s'
+        'captures':
+          '1':
+            'name': 'keyword.control.component.galen'
+      }
     ]

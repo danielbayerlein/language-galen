@@ -114,3 +114,9 @@
 #       ^^ ^^^ ^^^^ keyword.control.on.galen
         on bottom left edge user-picture 20px right, 10 px top
 #       ^^ ^^^^^^ ^^^^ keyword.control.on.galen
+    user-profile-*:
+#   ^^^^^^^^^^^^^^^ entity.name.type.object.galen
+        component user-profile.gspec
+#       ^^^^^^^^^ keyword.control.component.galen
+        component frame banner.gspec
+#       ^^^^^^^^^ ^^^^^ keyword.control.component.galen
