@@ -6,10 +6,10 @@ describe 'Galen grammar', ->
 
   beforeEach ->
     waitsForPromise ->
-      atom.packages.activatePackage('language-galen')
+      atom.packages.activatePackage 'language-galen'
 
     runs ->
-      grammar = atom.grammars.grammarForScopeName('source.galen')
+      grammar = atom.grammars.grammarForScopeName 'source.galen'
 
   it 'parses the grammar', ->
     expect(grammar).toBeTruthy()
