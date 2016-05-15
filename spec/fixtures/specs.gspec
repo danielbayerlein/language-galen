@@ -82,3 +82,13 @@
 #       ^^^             ^^^^^^^^ keyword.control.css.galen
         css font-family matches ".*Arial.*"
 #       ^^^             ^^^^^^^ keyword.control.css.galen
+    button:
+#   ^^^^^^^ entity.name.type.object.galen
+        centered horizontally inside box
+#       ^^^^^^^^ ^^^^^^^^^^^^ ^^^^^^ keyword.control.centered.galen
+        centered all inside box
+#       ^^^^^^^^ ^^^ ^^^^^^ keyword.control.centered.galen
+        centered horizontally on box
+#       ^^^^^^^^ ^^^^^^^^^^^^ ^^ keyword.control.centered.galen
+        centered horizontally inside box 10px
+#       ^^^^^^^^ ^^^^^^^^^^^^ ^^^^^^ keyword.control.centered.galen

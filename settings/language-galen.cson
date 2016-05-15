@@ -35,4 +35,7 @@
       'text lowercase ends'
       'text lowercase contains'
       'text lowercase matches'
+      'centered horizontally inside'
+      'centered all inside'
+      'centered horizontally on'
     ]

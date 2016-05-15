@@ -159,4 +159,11 @@
           '2':
             'name': 'keyword.control.css.galen'
       }
+      {
+        'comment': 'Spec centered'
+        'match': '^\\s+(centered (?:horizontally|vertically|all) (?:inside|on))\\s'
+        'captures':
+          '1':
+            'name': 'keyword.control.centered.galen'
+      }
     ]
