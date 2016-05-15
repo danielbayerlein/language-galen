@@ -128,3 +128,7 @@
 #       ^^^^^ ^^^^^^^ keyword.control.count.galen
         count absent menu_item-* is 4 to 5
 #       ^^^^^ ^^^^^^ keyword.control.count.galen
+    login-form:
+#   ^^^^^^^^^^^ entity.name.type.object.galen
+        color-scheme 10% white, 4 to 5 % black, < 30% #f845b7
+#       ^^^^^^^^^^^^ keyword.control.color-scheme.galen

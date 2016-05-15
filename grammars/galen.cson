@@ -208,4 +208,11 @@
           '1':
             'name': 'keyword.control.count.galen'
       }
+      {
+        'comment': 'Spec color scheme'
+        'match': '^\\s+(color-scheme)\\s'
+        'captures':
+          '1':
+            'name': 'keyword.control.color-scheme.galen'
+      }
     ]
