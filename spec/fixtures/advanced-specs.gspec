@@ -1,0 +1,4 @@
+# SYNTAX TEST "source.galen"
+
+@import footer.gspec
+# <- storage.type.galen

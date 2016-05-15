@@ -8,3 +8,6 @@
   'Add section definition':
     'prefix': 'section'
     'body': '= ${1:section} =\n'
+  'Add import definition':
+    'prefix': 'import'
+    'body': '@import ${1:import}\n'

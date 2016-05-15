@@ -14,6 +14,9 @@
   {
     'include': '#specs'
   }
+  {
+    'include': '#advanced-specs'
+  }
 ]
 'repository':
   'comment':
@@ -221,5 +224,13 @@
         'captures':
           '1':
             'name': 'keyword.control.image.galen'
+      }
+    ]
+  'advanced-specs':
+    'patterns': [
+      {
+        'comment': 'Importing keyword'
+        'match': '^(@import)'
+        'name': 'storage.type.galen'
       }
     ]
