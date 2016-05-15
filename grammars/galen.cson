@@ -166,4 +166,11 @@
           '1':
             'name': 'keyword.control.centered.galen'
       }
+      {
+        'comment': 'Spec absent'
+        'match': '^\\s+(absent)$'
+        'captures':
+          '1':
+            'name': 'keyword.control.absent.galen'
+      }
     ]

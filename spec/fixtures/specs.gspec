@@ -92,3 +92,7 @@
 #       ^^^^^^^^ ^^^^^^^^^^^^ ^^ keyword.control.centered.galen
         centered horizontally inside box 10px
 #       ^^^^^^^^ ^^^^^^^^^^^^ ^^^^^^ keyword.control.centered.galen
+    comments:
+#   ^^^^^^^^^ entity.name.type.object.galen
+        absent
+#       ^^^^^^ keyword.control.absent.galen
