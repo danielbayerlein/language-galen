@@ -1,0 +1,30 @@
+# SYNTAX TEST "source.galen"
+
+@objects
+# <- storage.type.galen
+    main                id      main-container
+#   ^^^^ entity.name.type.object.galen
+#                       ^^ support.type.locators.galen
+#                               ^^^^^^^^^^^^^^ entity.other.attribute-name.selector.galen
+    menu                css     ul.menu
+#   ^^^^ entity.name.type.object.galen
+#                       ^^^ support.type.locators.galen
+#                               ^^^^^^^ entity.other.attribute-name.selector.galen
+    comments            css     div.comments
+#   ^^^^^^^^ entity.name.type.object.galen
+#                       ^^^ support.type.locators.galen
+#                               ^^^^^^^^^^^^ entity.other.attribute-name.selector.galen
+
+= Main section =
+# <- entity.name.function.section.galen
+    menu:
+#   ^^^^^ entity.name.type.object.galen
+        width ~ 100 % of main/width
+#       ^^^^^ keyword.control.width.galen
+
+    comments:
+#   ^^^^^^^^^ entity.name.type.object.galen
+        width 40 % of main/width
+#       ^^^^^ keyword.control.width.galen
+        height 90 to 100 % of main/height
+#       ^^^^^^ keyword.control.height.galen
