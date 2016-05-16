@@ -14,3 +14,6 @@
   'Add on definition':
     'prefix': 'on'
     'body': '@on ${1:on}\n'
+  'Add variable definition':
+    'prefix': 'set'
+    'body': '@set\n'

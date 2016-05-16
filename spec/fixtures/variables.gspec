@@ -1,0 +1,22 @@
+# SYNTAX TEST "source.galen"
+
+@set
+# <- storage.type.galen
+    commonHeaderMargin    10 to 20px
+#   ^^^^^^^^^^^^^^^^^^ entity.name.type.object.galen
+    contentMargin  ~ 20px
+#   ^^^^^^^^^^^^^ entity.name.type.object.galen
+
+= Header =
+# <- entity.name.function.section.galen
+    header_icon:
+#   ^^^^^^^^^^^^ entity.name.type.object.galen
+        inside header ${commonHeaderMargin} top left
+#       ^^^^^^ keyword.control.inside.galen
+
+= Content =
+# <- entity.name.function.section.galen
+    article-description:
+#   ^^^^^^^^^^^^^^^^^^^^ entity.name.type.object.galen
+        inside main ${contentMargin} left right
+#       ^^^^^^ keyword.control.inside.galen

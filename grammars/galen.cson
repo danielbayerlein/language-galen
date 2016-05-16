@@ -12,6 +12,9 @@
     'include': '#tagging-and-sections'
   }
   {
+    'include': '#variables'
+  }
+  {
     'include': '#specs'
   }
   {
@@ -86,6 +89,14 @@
         'captures':
           '1':
             'name': 'keyword.control.on.galen'
+      }
+    ]
+  'variables':
+    'patterns': [
+      {
+        'comment': 'Variable definition keyword'
+        'match': '^(@set)$'
+        'name': 'storage.type.galen'
       }
     ]
   'specs':

@@ -55,4 +55,5 @@
       'image file'
       '@import'
       '@on'
+      '@set'
     ]
