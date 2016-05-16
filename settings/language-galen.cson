@@ -54,4 +54,5 @@
       'color-scheme'
       'image file'
       '@import'
+      '@on'
     ]

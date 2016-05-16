@@ -1,0 +1,63 @@
+# SYNTAX TEST "source.galen"
+
+= Header section =
+# <- entity.name.function.section.galen
+    = Icons and text =
+#   ^ ^^^^^ ^^^ ^^^^ ^ entity.name.function.section.galen
+        header.icon:
+#       ^^^^^^^^^^^^ entity.name.type.object.galen
+            inside header 10px top left
+#           ^^^^^^ keyword.control.inside.galen
+
+        header.caption:
+#       ^^^^^^^^^^^^^^^ entity.name.type.object.galen
+            text is "Greetings!"
+#           ^^^^^^^ keyword.control.text.galen
+
+    = User section =
+#   ^ ^^^^ ^^^^^^^ ^ entity.name.function.section.galen
+        header.username:
+#       ^^^^^^^^^^^^^^^^ entity.name.type.object.galen
+            inside header 10px top right
+#           ^^^^^^ keyword.control.inside.galen
+
+= Main section =
+# <- entity.name.function.section.galen
+    @on mobile
+#   ^^^ ^^^^^^ keyword.control.on.galen
+        menu:
+#       ^^^^^ entity.name.type.object.galen
+            height 300 px
+#           ^^^^^^ keyword.control.height.galen
+
+    @on desktop
+#   ^^^ ^^^^^^^ keyword.control.on.galen
+        menu:
+#       ^^^^^ entity.name.type.object.galen
+            height 40 px
+#           ^^^^^^ keyword.control.height.galen
+
+= Main section =
+# <- entity.name.function.section.galen
+    @on *
+#   ^^^ ^ keyword.control.on.galen
+        menu:
+#       ^^^^^ entity.name.type.object.galen
+            height 70px
+#           ^^^^^^ keyword.control.height.galen
+
+    @on mobile
+#   ^^^ ^^^^^^ keyword.control.on.galen
+        login-button:
+#       ^^^^^^^^^^^^^ entity.name.type.object.galen
+            width 100px
+#           ^^^^^ keyword.control.width.galen
+
+= Main section =
+# <- entity.name.function.section.galen
+    @on mobile, desktop
+#   ^^^ ^^^^^^^ ^^^^^^^ keyword.control.on.galen
+        menu:
+#       ^^^^^ entity.name.type.object.galen
+            height 300 px
+#           ^^^^^^ keyword.control.height.galen

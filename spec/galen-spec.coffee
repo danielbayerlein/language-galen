@@ -22,5 +22,6 @@ describe 'Galen grammar', ->
   grammarTest path.join(__dirname, 'fixtures/object-groups.gspec')
   grammarTest path.join(__dirname, 'fixtures/declaring-groups-inline-with-objects.gspec')
   grammarTest path.join(__dirname, 'fixtures/ranges.gspec')
+  grammarTest path.join(__dirname, 'fixtures/tagging-and-sections.gspec')
   grammarTest path.join(__dirname, 'fixtures/specs.gspec')
   grammarTest path.join(__dirname, 'fixtures/advanced-specs.gspec')
