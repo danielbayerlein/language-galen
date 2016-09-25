@@ -56,4 +56,5 @@
       '@import'
       '@on'
       '@set'
+      '@die'
     ]

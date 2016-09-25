@@ -17,3 +17,6 @@
   'Add variable definition':
     'prefix': 'set'
     'body': '@set\n'
+  'Add die definition':
+    'prefix': 'die'
+    'body': '@die "${1:die}"\n'

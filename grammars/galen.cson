@@ -251,4 +251,9 @@
         'match': '^(@import)'
         'name': 'storage.type.galen'
       }
+      {
+        'comment': 'Throwing error keyword'
+        'match': '^\\s*(@die)\\s'
+        'name': 'storage.type.galen'
+      }
     ]

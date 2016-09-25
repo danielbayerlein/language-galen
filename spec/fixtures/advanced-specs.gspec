@@ -19,3 +19,7 @@
 #   ^^^^^^^^^^^^ entity.name.type.object.galen
         width 100px
 #       ^^^^^ keyword.control.width.galen
+
+@if ${count("menu.item-*") === 0}
+    @die "There are no menu items"
+#   ^^^^ storage.type.galen
