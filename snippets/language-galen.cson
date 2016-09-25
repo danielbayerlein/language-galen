@@ -10,25 +10,25 @@
     'body': '= ${1:section} =\n'
   'Add import definition':
     'prefix': 'import'
-    'body': '@import ${1:import}\n'
+    'body': '@import ${1:file.gspec}\n'
   'Add on definition':
     'prefix': 'on'
-    'body': '@on ${1:on}\n'
+    'body': '@on ${1:tag}\n'
   'Add variable definition':
     'prefix': 'set'
     'body': '@set\n'
   'Add die definition':
     'prefix': 'die'
-    'body': '@die "${1:die}"\n'
+    'body': '@die "${1:message}"\n'
   'Add script definition':
     'prefix': 'script'
-    'body': '@script ${1:script}\n'
+    'body': '@script ${1:script.js}\n'
   'Add if definition':
     'prefix': 'if'
-    'body': '@if ${1:if}\n'
+    'body': '@if ${1:statement}\n'
   'Add elseif definition':
     'prefix': 'elseif'
-    'body': '@elseif ${1:elseif}\n'
+    'body': '@elseif ${1:statement}\n'
   'Add else definition':
     'prefix': 'else'
     'body': '@else\n'
