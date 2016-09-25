@@ -249,17 +249,17 @@
       {
         'comment': 'Importing keyword'
         'match': '^(@import)'
-        'name': 'storage.type.galen'
+        'name': 'keyword.control.import.galen'
       }
       {
         'comment': 'Throwing error keyword'
         'match': '^\\s*(@die)\\s'
-        'name': 'storage.type.galen'
+        'name': 'keyword.control.die.galen'
       }
       {
         'comment': 'Custom JavaScript keyword'
         'match': '^(@script)'
-        'name': 'storage.type.galen'
+        'name': 'keyword.control.script.galen'
       }
       {
         'comment': 'if Statement keyword'

@@ -1,7 +1,7 @@
 # SYNTAX TEST "source.galen"
 
 @import footer.gspec
-# <- storage.type.galen
+# <- keyword.control.import.galen
 
 = Skeleton =
 # <- entity.name.function.section.galen
@@ -23,10 +23,10 @@
 @if ${count("menu.item-*") === 0}
 # <- keyword.control.if.galen
     @die "There are no menu items"
-#   ^^^^ storage.type.galen
+#   ^^^^ keyword.control.die.galen
 
 @script i18n.function.js
-# <- storage.type.galen
+# <- keyword.control.script.galen
 
 = Banners =
 # <- entity.name.function.section.galen
