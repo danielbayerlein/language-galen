@@ -20,3 +20,6 @@
   'Add die definition':
     'prefix': 'die'
     'body': '@die "${1:die}"\n'
+  'Add script definition':
+    'prefix': 'script'
+    'body': '@script ${1:script}\n'

@@ -256,4 +256,9 @@
         'match': '^\\s*(@die)\\s'
         'name': 'storage.type.galen'
       }
+      {
+        'comment': 'Custom JavaScript keyword'
+        'match': '^(@script)'
+        'name': 'storage.type.galen'
+      }
     ]

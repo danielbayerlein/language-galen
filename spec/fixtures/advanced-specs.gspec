@@ -23,3 +23,6 @@
 @if ${count("menu.item-*") === 0}
     @die "There are no menu items"
 #   ^^^^ storage.type.galen
+
+@script i18n.function.js
+# <- storage.type.galen
