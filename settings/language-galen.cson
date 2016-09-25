@@ -62,4 +62,5 @@
       '@elseif'
       '@else'
       '@for'
+      'as'
     ]
