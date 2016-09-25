@@ -32,3 +32,6 @@
   'Add else definition':
     'prefix': 'else'
     'body': '@else\n'
+  'Add for definition':
+    'prefix': 'for'
+    'body': '@for ${1:[1 - 9]} as index\n'

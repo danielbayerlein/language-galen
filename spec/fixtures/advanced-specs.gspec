@@ -48,3 +48,12 @@
 #       ^^^^^^^^^ entity.name.type.object.galen
             width 300 px
 #           ^^^^^ keyword.control.width.galen
+
+= Main section =
+# <- entity.name.function.section.galen
+    @for [1 - 9] as index
+#   ^^^          ^^ keyword.control.for.galen
+        menu_item-${index}:
+#       ^^^^^^^^^^^^^^^^^^^ entity.name.type.object.galen
+            left-of menu_item-${index + 1} 10px
+#           ^^^^^^^ keyword.control.left-of.galen

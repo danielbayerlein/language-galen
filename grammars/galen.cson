@@ -266,4 +266,9 @@
         'match': '^\\s*(@(if|elseif|else))\\s'
         'name': 'keyword.control.if.galen'
       }
+      {
+        'comment': 'for Loop keyword'
+        'match': '^\\s*(@for)\\s.+\\s(as)\\s.+\\s'
+        'name': 'keyword.control.for.galen'
+      }
     ]
