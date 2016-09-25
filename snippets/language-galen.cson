@@ -23,3 +23,12 @@
   'Add script definition':
     'prefix': 'script'
     'body': '@script ${1:script}\n'
+  'Add if definition':
+    'prefix': 'if'
+    'body': '@if ${1:if}\n'
+  'Add elseif definition':
+    'prefix': 'elseif'
+    'body': '@elseif ${1:elseif}\n'
+  'Add else definition':
+    'prefix': 'else'
+    'body': '@else\n'

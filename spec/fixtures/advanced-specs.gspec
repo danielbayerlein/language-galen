@@ -21,8 +21,30 @@
 #       ^^^^^ keyword.control.width.galen
 
 @if ${count("menu.item-*") === 0}
+# <- keyword.control.if.galen
     @die "There are no menu items"
 #   ^^^^ storage.type.galen
 
 @script i18n.function.js
 # <- storage.type.galen
+
+= Banners =
+# <- entity.name.function.section.galen
+    @if ${isVisible("banner-1")}
+#   ^^^ keyword.control.if.galen
+        banner-1:
+#       ^^^^^^^^^ entity.name.type.object.galen
+            width 300 px
+#           ^^^^^ keyword.control.width.galen
+    @elseif ${isVisible("banner-2")}
+#   ^^^^^^^ keyword.control.if.galen
+        banner-2:
+#       ^^^^^^^^^ entity.name.type.object.galen
+            width 300 px
+#           ^^^^^ keyword.control.width.galen
+    @else
+#   ^^^^^ keyword.control.if.galen
+        banner-3:
+#       ^^^^^^^^^ entity.name.type.object.galen
+            width 300 px
+#           ^^^^^ keyword.control.width.galen

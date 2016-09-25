@@ -261,4 +261,9 @@
         'match': '^(@script)'
         'name': 'storage.type.galen'
       }
+      {
+        'comment': 'if Statement keyword'
+        'match': '^\\s*(@(if|elseif|else))\\s'
+        'name': 'keyword.control.if.galen'
+      }
     ]
