@@ -269,6 +269,10 @@
       {
         'comment': 'for Loop keyword'
         'match': '^\\s*(@for)\\s.+\\s(as)\\s.+\\s'
-        'name': 'keyword.control.for.galen'
+        'captures':
+          '1':
+            'name': 'keyword.control.for.galen'
+          '2':
+            'name': 'keyword.control.for.galen'
       }
     ]
