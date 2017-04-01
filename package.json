@@ -16,7 +16,7 @@
     "url": "https://github.com/danielbayerlein/language-galen/issues"
   },
   "devDependencies": {
-    "atom-grammar-test": "^0.6.2",
+    "atom-grammar-test": "^0.6.4",
     "coffeelint": "^1.16.0"
   }
 }
