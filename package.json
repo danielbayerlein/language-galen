@@ -17,6 +17,6 @@
   },
   "devDependencies": {
     "atom-grammar-test": "^0.6.4",
-    "coffeelint": "^1.16.0"
+    "coffeelint": "^2.0.6"
   }
 }
